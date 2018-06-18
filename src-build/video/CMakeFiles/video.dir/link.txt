@@ -1,0 +1,2 @@
+C:\mingw\mingw32\bin\ar.exe qc libvideo.a  CMakeFiles/video.dir/videobuffer.cpp.obj
+C:\mingw\mingw32\bin\ranlib.exe libvideo.a

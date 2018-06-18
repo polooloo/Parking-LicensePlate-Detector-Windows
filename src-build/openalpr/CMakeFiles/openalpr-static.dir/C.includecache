@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/angeliton/Desktop/openalpr-mingw-master/src/openalpr/cjson.c
+string.h
+-
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+float.h
+-
+limits.h
+-
+ctype.h
+-
+cjson.h
+C:/Users/angeliton/Desktop/openalpr-mingw-master/src/openalpr/cjson.h
+
+C:/Users/angeliton/Desktop/openalpr-mingw-master/src/openalpr/cjson.h
+
