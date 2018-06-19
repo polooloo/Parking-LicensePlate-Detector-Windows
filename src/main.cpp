@@ -38,7 +38,7 @@ int PORT = 1234, CAMERA = 1;
 std::string CAMERA_ADDRESS = "";
 const std::string SERVER_IP = "127.0.0.1";
 const std::string TAKE_PICTURE_SIGNAL = "Z";
-const std::string DEFAULT_LICENSE_PLATE = "MATRÍCULA NO LEGIBLE";
+const std::string DEFAULT_LICENSE_PLATE = "NO_LEGIBLE";
 
 /** Function Headers */
 std::string detectandshow(Alpr* alpr, cv::Mat frame, std::string region, bool writeJson);
@@ -66,7 +66,7 @@ int main( int argc, const char** argv )
     TCLAP::ValueArg<std::string> configFileArg("","config","Path to the openalpr.conf file", false, "config\\openalpr.conf","config_file");
     TCLAP::ValueArg<int> portArg("p","port","Port to open server.  Default = 1234", false, 1234, "port");
     TCLAP::ValueArg<std::string> cameraAddressArg("a","address","Address to the ip camera", false, "", "address");
-    TCLAP::ValueArg<int> cameraArg("","camera","Default video camera by usb = 1", false, 1, "camera");
+    TCLAP::ValueArg<int> cameraArg("","camera","Default video camera by usb = 0", false, 0, "camera");
 
     TCLAP::SwitchArg jsonSwitch("j","json","Output recognition results in JSON format.  Default=off", cmd, false);
     TCLAP::SwitchArg debugSwitch("","debug","Enable debug output.  Default=off", cmd, false);

@@ -1,5 +1,5 @@
-
 # Created by https://www.gitignore.io/api/c,c++,clion,windows,clion+all,clion+iml
+src-build/
 
 ### C ###
 # Prerequisites
@@ -27,7 +27,7 @@
 *.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
+# *.dll
 *.so
 *.so.*
 *.dylib
@@ -75,7 +75,7 @@ dkms.conf
 # Executables
 
 ### CLion ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android 
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android
 Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -141,7 +141,7 @@ fabric.properties
 .idea/sonarlint
 
 ### CLion+all ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android 
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android
 Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -173,7 +173,7 @@ Studio and Webstorm
 
 ### CLion+all Patch ###
 # Ignores the whole .idea folder and all .iml files
-# See https://github.com/joeblau/gitignore.io/issues/186 and 
+# See https://github.com/joeblau/gitignore.io/issues/186 and
 https://github.com/joeblau/gitignore.io/issues/360
 
 .idea/
@@ -186,7 +186,7 @@ modules.xml
 *.ipr
 
 ### CLion+iml ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android 
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android
 Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 

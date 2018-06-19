@@ -1,2 +1,0 @@
-C:\mingw\mingw32\bin\ar.exe qc libsimpleini.a  CMakeFiles/simpleini.dir/ConvertUTF.c.obj
-C:\mingw\mingw32\bin\ranlib.exe libsimpleini.a
